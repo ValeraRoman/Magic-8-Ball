@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322DCF8C25260D2E0044224A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DCF8B25260D2E0044224A /* AppDelegate.swift */; };
+		322DCF8E25260D2E0044224A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DCF8D25260D2E0044224A /* SceneDelegate.swift */; };
+		322DCF9025260D2E0044224A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DCF8F25260D2E0044224A /* ViewController.swift */; };
+		322DCF9325260D2E0044224A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322DCF9125260D2E0044224A /* Main.storyboard */; };
+		322DCF9825260D3A0044224A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322DCF9625260D3A0044224A /* LaunchScreen.storyboard */; };
+		322DCFA325260D3C0044224A /* Magic_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DCFA225260D3C0044224A /* Magic_BallTests.swift */; };
+		322DCFAE25260D3C0044224A /* Magic_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322DCFAD25260D3C0044224A /* Magic_BallUITests.swift */; };
+		322DCFC2252668970044224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322DCFC1252668960044224A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322DCF9F25260D3C0044224A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322DCF8025260D2D0044224A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322DCF8725260D2E0044224A;
+			remoteInfo = "Magic Ball";
+		};
+		322DCFAA25260D3C0044224A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322DCF8025260D2D0044224A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322DCF8725260D2E0044224A;
+			remoteInfo = "Magic Ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322DCF8825260D2E0044224A /* Magic Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DCF8B25260D2E0044224A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		322DCF8D25260D2E0044224A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		322DCF8F25260D2E0044224A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		322DCF9225260D2E0044224A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322DCF9725260D3A0044224A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322DCF9925260D3A0044224A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DCF9E25260D3C0044224A /* Magic BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DCFA225260D3C0044224A /* Magic_BallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_BallTests.swift; sourceTree = "<group>"; };
+		322DCFA425260D3C0044224A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DCFA925260D3C0044224A /* Magic BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322DCFAD25260D3C0044224A /* Magic_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_BallUITests.swift; sourceTree = "<group>"; };
+		322DCFAF25260D3C0044224A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322DCFC1252668960044224A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322DCF8525260D2E0044224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DCF9B25260D3C0044224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DCFA625260D3C0044224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322DCF7F25260D2D0044224A = {
+			isa = PBXGroup;
+			children = (
+				322DCF8A25260D2E0044224A /* Magic Ball */,
+				322DCFA125260D3C0044224A /* Magic BallTests */,
+				322DCFAC25260D3C0044224A /* Magic BallUITests */,
+				322DCF8925260D2E0044224A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322DCF8925260D2E0044224A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322DCF8825260D2E0044224A /* Magic Ball.app */,
+				322DCF9E25260D3C0044224A /* Magic BallTests.xctest */,
+				322DCFA925260D3C0044224A /* Magic BallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322DCF8A25260D2E0044224A /* Magic Ball */ = {
+			isa = PBXGroup;
+			children = (
+				322DCF8B25260D2E0044224A /* AppDelegate.swift */,
+				322DCF8D25260D2E0044224A /* SceneDelegate.swift */,
+				322DCF8F25260D2E0044224A /* ViewController.swift */,
+				322DCF9125260D2E0044224A /* Main.storyboard */,
+				322DCF9625260D3A0044224A /* LaunchScreen.storyboard */,
+				322DCFC1252668960044224A /* Assets.xcassets */,
+				322DCF9925260D3A0044224A /* Info.plist */,
+			);
+			path = "Magic Ball";
+			sourceTree = "<group>";
+		};
+		322DCFA125260D3C0044224A /* Magic BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				322DCFA225260D3C0044224A /* Magic_BallTests.swift */,
+				322DCFA425260D3C0044224A /* Info.plist */,
+			);
+			path = "Magic BallTests";
+			sourceTree = "<group>";
+		};
+		322DCFAC25260D3C0044224A /* Magic BallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				322DCFAD25260D3C0044224A /* Magic_BallUITests.swift */,
+				322DCFAF25260D3C0044224A /* Info.plist */,
+			);
+			path = "Magic BallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322DCF8725260D2E0044224A /* Magic Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DCFB225260D3C0044224A /* Build configuration list for PBXNativeTarget "Magic Ball" */;
+			buildPhases = (
+				322DCF8425260D2E0044224A /* Sources */,
+				322DCF8525260D2E0044224A /* Frameworks */,
+				322DCF8625260D2E0044224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Magic Ball";
+			productName = "Magic Ball";
+			productReference = 322DCF8825260D2E0044224A /* Magic Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322DCF9D25260D3C0044224A /* Magic BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DCFB525260D3C0044224A /* Build configuration list for PBXNativeTarget "Magic BallTests" */;
+			buildPhases = (
+				322DCF9A25260D3C0044224A /* Sources */,
+				322DCF9B25260D3C0044224A /* Frameworks */,
+				322DCF9C25260D3C0044224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322DCFA025260D3C0044224A /* PBXTargetDependency */,
+			);
+			name = "Magic BallTests";
+			productName = "Magic BallTests";
+			productReference = 322DCF9E25260D3C0044224A /* Magic BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		322DCFA825260D3C0044224A /* Magic BallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322DCFB825260D3C0044224A /* Build configuration list for PBXNativeTarget "Magic BallUITests" */;
+			buildPhases = (
+				322DCFA525260D3C0044224A /* Sources */,
+				322DCFA625260D3C0044224A /* Frameworks */,
+				322DCFA725260D3C0044224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322DCFAB25260D3C0044224A /* PBXTargetDependency */,
+			);
+			name = "Magic BallUITests";
+			productName = "Magic BallUITests";
+			productReference = 322DCFA925260D3C0044224A /* Magic BallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322DCF8025260D2D0044224A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					322DCF8725260D2E0044224A = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					322DCF9D25260D3C0044224A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 322DCF8725260D2E0044224A;
+					};
+					322DCFA825260D3C0044224A = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 322DCF8725260D2E0044224A;
+					};
+				};
+			};
+			buildConfigurationList = 322DCF8325260D2D0044224A /* Build configuration list for PBXProject "Magic Ball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322DCF7F25260D2D0044224A;
+			productRefGroup = 322DCF8925260D2E0044224A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322DCF8725260D2E0044224A /* Magic Ball */,
+				322DCF9D25260D3C0044224A /* Magic BallTests */,
+				322DCFA825260D3C0044224A /* Magic BallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322DCF8625260D2E0044224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DCF9825260D3A0044224A /* LaunchScreen.storyboard in Resources */,
+				322DCFC2252668970044224A /* Assets.xcassets in Resources */,
+				322DCF9325260D2E0044224A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DCF9C25260D3C0044224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DCFA725260D3C0044224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322DCF8425260D2E0044224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DCF9025260D2E0044224A /* ViewController.swift in Sources */,
+				322DCF8C25260D2E0044224A /* AppDelegate.swift in Sources */,
+				322DCF8E25260D2E0044224A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DCF9A25260D3C0044224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DCFA325260D3C0044224A /* Magic_BallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322DCFA525260D3C0044224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322DCFAE25260D3C0044224A /* Magic_BallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		322DCFA025260D3C0044224A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322DCF8725260D2E0044224A /* Magic Ball */;
+			targetProxy = 322DCF9F25260D3C0044224A /* PBXContainerItemProxy */;
+		};
+		322DCFAB25260D3C0044224A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322DCF8725260D2E0044224A /* Magic Ball */;
+			targetProxy = 322DCFAA25260D3C0044224A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322DCF9125260D2E0044224A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322DCF9225260D2E0044224A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322DCF9625260D3A0044224A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322DCF9725260D3A0044224A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322DCFB025260D3C0044224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		322DCFB125260D3C0044224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322DCFB325260D3C0044224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2485JHBP6S;
+				INFOPLIST_FILE = "Magic Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valerka.Magic-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		322DCFB425260D3C0044224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2485JHBP6S;
+				INFOPLIST_FILE = "Magic Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valerka.Magic-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		322DCFB625260D3C0044224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2485JHBP6S;
+				INFOPLIST_FILE = "Magic BallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valerka.Magic-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Ball.app/Magic Ball";
+			};
+			name = Debug;
+		};
+		322DCFB725260D3C0044224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2485JHBP6S;
+				INFOPLIST_FILE = "Magic BallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valerka.Magic-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magic Ball.app/Magic Ball";
+			};
+			name = Release;
+		};
+		322DCFB925260D3C0044224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2485JHBP6S;
+				INFOPLIST_FILE = "Magic BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valerka.Magic-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magic Ball";
+			};
+			name = Debug;
+		};
+		322DCFBA25260D3C0044224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2485JHBP6S;
+				INFOPLIST_FILE = "Magic BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Valerka.Magic-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Magic Ball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322DCF8325260D2D0044224A /* Build configuration list for PBXProject "Magic Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DCFB025260D3C0044224A /* Debug */,
+				322DCFB125260D3C0044224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DCFB225260D3C0044224A /* Build configuration list for PBXNativeTarget "Magic Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DCFB325260D3C0044224A /* Debug */,
+				322DCFB425260D3C0044224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DCFB525260D3C0044224A /* Build configuration list for PBXNativeTarget "Magic BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DCFB625260D3C0044224A /* Debug */,
+				322DCFB725260D3C0044224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322DCFB825260D3C0044224A /* Build configuration list for PBXNativeTarget "Magic BallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322DCFB925260D3C0044224A /* Debug */,
+				322DCFBA25260D3C0044224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322DCF8025260D2D0044224A /* Project object */;
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ogx-6M-Fva">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="c0v-hF-NUw">
+            <objects>
+                <viewController id="Ogx-6M-Fva" customClass="ViewController" customModule="Magic_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8wm-kl-uMu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5971b6ff0f900f92d27a64cec0c7f2ab" translatesAutoresizingMaskIntoConstraints="NO" id="lKm-ID-BE2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maгічна кулька " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJh-Hc-xS6">
+                                <rect key="frame" x="20" y="40" width="335" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SfZ-V4-eww"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGb-ew-DXg">
+                                <rect key="frame" x="25" y="533.5" width="325" height="60"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Beg-4c-BEJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="29"/>
+                                <state key="normal" title="Обирай! Або потряси!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="actionToBall:" destination="Ogx-6M-Fva" eventType="touchUpInside" id="Qpw-cp-yAr"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Magic_eight_ball-1" translatesAutoresizingMaskIntoConstraints="NO" id="t1E-zr-GSD">
+                                <rect key="frame" x="0.0" y="83.5" width="375" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="Ss5-DH-yIB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uW9-Qp-YeS">
+                                <rect key="frame" x="128" y="232.5" width="115" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="bsv-fN-nTB"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="sknsfnlsslmfsfmsnfm smn ,ms noms  ,m ns ms mms mnsm ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" paragraphSpacingBefore="2" headIndent="2" minimumLineHeight="2" maximumLineHeight="14" lineHeightMultiple="2" defaultTabInterval="1" tighteningFactorForTruncation="0.5" headerLevel="3"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Aw5-eE-WLy"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AGb-ew-DXg" firstAttribute="top" secondItem="t1E-zr-GSD" secondAttribute="bottom" constant="50" id="6gD-iB-7Dw"/>
+                            <constraint firstItem="Aw5-eE-WLy" firstAttribute="trailing" secondItem="AGb-ew-DXg" secondAttribute="trailing" constant="25" id="786-bx-Zvq"/>
+                            <constraint firstAttribute="trailing" secondItem="t1E-zr-GSD" secondAttribute="trailing" id="9kn-FU-9d2"/>
+                            <constraint firstItem="lKm-ID-BE2" firstAttribute="top" secondItem="8wm-kl-uMu" secondAttribute="top" id="HXS-0G-S6E"/>
+                            <constraint firstItem="t1E-zr-GSD" firstAttribute="leading" secondItem="8wm-kl-uMu" secondAttribute="leading" id="IXF-Tb-uzO"/>
+                            <constraint firstItem="VJh-Hc-xS6" firstAttribute="leading" secondItem="Aw5-eE-WLy" secondAttribute="leading" constant="20" id="VWN-t1-M9Y"/>
+                            <constraint firstItem="t1E-zr-GSD" firstAttribute="centerX" secondItem="8wm-kl-uMu" secondAttribute="centerX" id="Yd1-XO-FYk"/>
+                            <constraint firstItem="t1E-zr-GSD" firstAttribute="centerY" secondItem="8wm-kl-uMu" secondAttribute="centerY" constant="-100" id="Zt0-wc-U1A">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-50"/>
+                            </constraint>
+                            <constraint firstItem="Aw5-eE-WLy" firstAttribute="trailing" secondItem="VJh-Hc-xS6" secondAttribute="trailing" constant="20" id="a3k-la-s9r"/>
+                            <constraint firstItem="VJh-Hc-xS6" firstAttribute="top" secondItem="Aw5-eE-WLy" secondAttribute="top" constant="40" id="cny-m3-oyb"/>
+                            <constraint firstItem="Aw5-eE-WLy" firstAttribute="trailing" secondItem="uW9-Qp-YeS" secondAttribute="trailing" constant="132" id="itJ-fn-GaQ"/>
+                            <constraint firstItem="lKm-ID-BE2" firstAttribute="leading" secondItem="Aw5-eE-WLy" secondAttribute="leading" id="mUy-Qm-WmO"/>
+                            <constraint firstItem="uW9-Qp-YeS" firstAttribute="leading" secondItem="Aw5-eE-WLy" secondAttribute="leading" constant="128" id="nXj-1p-lWK"/>
+                            <constraint firstItem="AGb-ew-DXg" firstAttribute="leading" secondItem="Aw5-eE-WLy" secondAttribute="leading" constant="25" id="oWF-y0-qXX"/>
+                            <constraint firstItem="Aw5-eE-WLy" firstAttribute="trailing" secondItem="lKm-ID-BE2" secondAttribute="trailing" id="uDF-CJ-1ay"/>
+                            <constraint firstItem="AGb-ew-DXg" firstAttribute="top" secondItem="uW9-Qp-YeS" secondAttribute="bottom" constant="238" id="wQ4-DT-qiz"/>
+                            <constraint firstAttribute="bottom" secondItem="lKm-ID-BE2" secondAttribute="bottom" id="wkk-aw-8fQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="uW9-Qp-YeS" id="2ul-UA-H2o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="beR-gh-Vmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="5971b6ff0f900f92d27a64cec0c7f2ab" width="1080" height="1920"/>
+        <image name="Magic_eight_ball-1" width="900" height="900"/>
+    </resources>
+</document>
